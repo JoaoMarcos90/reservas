@@ -10,7 +10,8 @@ body{
 .container{
     width: 100w;
     height: 100vh;
-    background: #C7CAC7;
+    background: url(../reservas/imagens/bola3.jpg) no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,26 +22,27 @@ body{
     width: 600px;
     background: #fff;
     font-family: Lato;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-    border: 10px black;
+    padding: 150px;
+    border: 7px solid black;
+    width: 850px;
+    height: 200px;
+    border-radius: 70px;
 }
 
 .form-box .form-input{
-    border: none;
-    background: #eee;
+    border: 5px solid black;
+    background:rgb(18, 86, 189) ;
+    border-radius: 40px;
     width: 100%;
-    height: 50px;
-    text-align: center;
+    height: 60px;
     font-size: large;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .form-box .form-btn{
     border: none;
-    background: #C05B65;
-    width: 100%;
+    background: rgb(221, 208, 208);
+    width: 40%;
     height: 50px;
     font-size: large;
     color: #fff;
