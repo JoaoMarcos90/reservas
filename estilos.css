@@ -1,6 +1,5 @@
 /*CSS*/
 
-@import url("https://fonts.googleapis.com/css?family=Lato");
 
 body{
     padding: 0;
@@ -13,40 +12,49 @@ body{
     background: url(../reservas/imagens/bola3.jpg) no-repeat;
     background-size: cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .form-box{
-    width: 600px;
     background: #fff;
-    font-family: Lato;
-    padding: 150px;
+    padding: 120px;
     border: 7px solid black;
-    width: 850px;
-    height: 200px;
+    width: 700px;
+    height: 250px;
     border-radius: 70px;
+    margin-bottom: 40px;
 }
 
 .form-box .form-input{
     border: 5px solid black;
     background:rgb(18, 86, 189) ;
     border-radius: 40px;
-    width: 100%;
-    height: 60px;
-    font-size: large;
-    margin-bottom: 50px;
+    width: 500px;
+    height: 20px;
+    
+    margin-bottom: 10px;
 }
 
-.form-box .form-btn{
-    border: none;
-    background: rgb(221, 208, 208);
-    width: 40%;
-    height: 50px;
-    font-size: large;
-    color: #fff;
-    margin-bottom: 10px;
+.form-box .cadastro{
+    border: 7px solid black;
+    background: rgb(253, 253, 253);
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    float: left;
+   
+}
+.form-box .entrar{
+    border: 7px solid black;
+    background: rgb(253, 253, 253);
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;
+    right: 200px;
+    float:right;
+
+   
 }
 
 @media screen and(max-width: 340px){
