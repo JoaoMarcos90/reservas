@@ -5,6 +5,47 @@ body{
     padding: 0;
     margin: 0;
 }
+ .titulo h1{
+    font-size: 80px;
+    height: 30px;
+    background-size: cover;
+    justify-content: right;
+    align-items: right;
+}
+ .titulo h4{
+    background: blue;
+    border: 3px solid black;
+    width: 10px;
+    height: 10px;
+    font-size: 0.13px;
+    border-radius: 80px;
+    padding: 20px;
+    float:left ;
+    
+ }
+ .titulo h5{
+    background: blue;
+    border: 3px solid black;
+    width: 10px;
+    height: 10px;
+    font-size: 0.13px;
+    border-radius: 80px;
+    padding: 20px;
+    float:left ;
+
+ }
+ .titulo h6{
+    background:blue;
+    border: 3px solid black;
+    width: 10px;
+    height: 10px;
+    font-size: 0.13px;
+    border-radius: 80px;
+    padding: 20px;
+    float:left ;
+    
+    
+ }
 
 .container{
     width: 100w;
@@ -18,41 +59,42 @@ body{
 
 .form-box{
     background: #fff;
-    padding: 120px;
+    padding: 110px;
     border: 7px solid black;
     width: 700px;
-    height: 250px;
+    height: 340px;
     border-radius: 70px;
-    margin-bottom: 40px;
 }
 
 .form-box .form-input{
     border: 5px solid black;
-    background:rgb(18, 86, 189) ;
+    background:rgb(5, 94, 226) ;
     border-radius: 40px;
     width: 500px;
-    height: 20px;
-    
-    margin-bottom: 10px;
+    height: 60px;
+    margin-bottom: 11px;
+    font-size: 20px;
+    color: white;
 }
 
 .form-box .cadastro{
-    border: 7px solid black;
+    border: 5px solid black;
     background: rgb(253, 253, 253);
     border-radius: 10px;
-    width: 200px;
-    height: 70px;
+    width: 170px;
+    height: 60px;
     float: left;
+    font-size: 20px;
    
 }
 .form-box .entrar{
-    border: 7px solid black;
+    border: 5px solid black;
     background: rgb(253, 253, 253);
     border-radius: 10px;
-    width: 200px;
-    height: 70px;
-    right: 200px;
+    width: 140px;
+    height: 60px;
     float:right;
+    font-size: 20px;
 
    
 }
