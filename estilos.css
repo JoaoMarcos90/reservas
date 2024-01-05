@@ -7,16 +7,15 @@ body{
 }
  h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 70px;
-    height: 50px;
-    top: 101px;
+    font-size: 80px;
+    height: 80px;
     background-size: cover;
     justify-content: right;
     align-items: right;
 }
  h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     height: 30px;
     background-size: cover;
     justify-content: right;
@@ -25,7 +24,7 @@ body{
  }
  h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     height: 30px;
     background-size: cover;
     justify-content: right;
@@ -40,7 +39,7 @@ body{
 h4{
     background: blue;
     left: 360px;
-    top: 119px;
+    top: 89px;
     height: 50px;
     width: 50px;
     border: 3px solid black;
@@ -49,7 +48,7 @@ h4{
  h5{
     background: blue;
     left: 390px;
-    top: 118px;
+    top: 88px;
     height: 50px;
     width: 50px;
     border: 3px solid black;
@@ -58,7 +57,7 @@ h4{
  h6{
     background: blue;
     left: 420px;
-    top: 115px;
+    top: 85px;
     height: 50px;
     width: 50px;
     border: 3px solid black;
@@ -79,10 +78,10 @@ h4{
 
 .form-box{
     background: #fff;
-    padding: 80px;
+    padding: 38px;
     border: 7px solid black;
-    width: 700px;
-    height: 400px;
+    width: 840px;
+    height: 441px;
     border-radius: 70px;
     
 }
@@ -94,32 +93,33 @@ h4{
     border-radius: 40px;
     width: 500px;
     height: 40px;
-    margin-bottom: 20px;
-    font-size: 20px;
     color: white;
+    font-size: 25px; 
 }
 
 .form-box .cadastro{
-    border: 5px solid black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 7px solid black;
     background: rgb(253, 253, 253);
     border-radius: 20px;
     width: 170px;
-    height: 60px;
-    float: left;
+    height: 80px;
+    float: right;
     font-size: 20px;
-    
+    margin: 40px;
   
    
 }
 .form-box .entrar{
-    border: 5px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 7px solid black;
     background: rgb(253, 253, 253);
     border-radius: 20px;
     width: 140px;
-    height: 60px;
+    height: 80px;
     float:right;
     font-size: 20px;
-    
+    margin: 40px;
 
    
 }
