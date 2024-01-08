@@ -9,30 +9,31 @@ body{
 }
  h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 80px;
-    height: 80px;
-    background-size: cover;
-    justify-content: right;
-    align-items: right;
+    font-size: 70px;
+    height: 50px;
+    text-align: center;
+   
 }
- h2{
+h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 23px;
-    height: 30px;
+    font-size: 20px;
+    height: 14px;
     background-size: cover;
     justify-content: right;
     align-items: right;
     
- }
+   }
+
  h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 23px;
-    height: 30px;
+    font-size: 13px;
+    height: 20px;
     background-size: cover;
     justify-content: right;
     align-items: right;
 
     }
+
     
 .form-box, h4,h5,h6{
        position: absolute;
@@ -40,28 +41,28 @@ body{
 
 h4{
     background: blue;
-    left: 360px;
-    top: 89px;
-    height: 50px;
-    width: 50px;
+    left: 165px;
+    top: 79px;
+    height: 41px;
+    width: 41px;
     border: 3px solid black;
     border-radius: 900px;
  }
  h5{
     background: blue;
-    left: 390px;
-    top: 88px;
-    height: 50px;
-    width: 50px;
+    left: 190px;
+    top: 78px;
+    height: 41px;
+    width: 41px;
     border: 3px solid black;
     border-radius: 900px;
  }
  h6{
     background: blue;
-    left: 420px;
-    top: 85px;
-    height: 50px;
-    width: 50px;
+    left: 218px;
+    top: 76px;
+    height: 40px;
+    width: 40px;
     border: 3px solid black;
     border-radius: 900px;
     
@@ -70,7 +71,7 @@ h4{
 .container{
     width: 100w;
     height: 100vh;
-    background: url(../reservas/imagens/bola3.jpg) no-repeat;
+    background: url(../reservas/imagens/bola5.jpg) no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -83,7 +84,7 @@ h4{
     padding: 38px;
     border: 7px solid black;
     width: 840px;
-    height: 441px;
+    height: 550px;
     border-radius: 70px;
     
 }
@@ -101,11 +102,11 @@ h4{
 
 .form-box .cadastro{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 7px solid black;
+    border: 5px solid black;
     background: rgb(253, 253, 253);
     border-radius: 20px;
-    width: 170px;
-    height: 80px;
+    width: 200px;
+    height: 70px;
     float: right;
     font-size: 20px;
     margin: 40px;
@@ -114,19 +115,19 @@ h4{
 .cadastro:hover{
     background-color: rgb(5, 94, 226);
 }
-.form-box .entrar{
+.form-box .voltar{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 7px solid black;
+    border: 5px solid black;
     background: rgb(253, 253, 253);
     border-radius: 20px;
     width: 140px;
-    height: 80px;
-    float:right;
+    height: 70px;
+    float:left;
     font-size: 20px;
     margin: 40px;
     cursor: pointer;
 }
-.entrar:hover{
+.voltar:hover{
     background-color: rgb(5, 94, 226);
 }
 
