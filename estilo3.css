@@ -1,0 +1,72 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100vw;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    height: 30px;
+    background-size: cover;
+    justify-content: right;
+    align-items: right;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    height: 30px;
+    
+}
+
+.imgfundo{
+    width: 100w;
+    height: 100vh;
+    background: url(../reservas/imagens/bola5.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    margin: 100px;
+    padding: 80px;
+    width: 900px;
+    border: 8px solid black;
+    border-radius: 70px;
+    
+}
+.elemento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 300px;
+    background-color:white;
+    border: 6px solid black;
+    border-radius: 70px;
+    margin-left: 300px;
+}
+.voltar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid black;
+    background: rgb(253, 253, 253);
+    border-radius: 20px;
+    width: 140px;
+    height: 70px;
+    float:left;
+    font-size: 20px;
+    margin: 40px;
+    cursor: pointer;
+}
+.voltar:hover{
+    background-color: rgb(5, 94, 226);
+}
