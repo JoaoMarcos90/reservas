@@ -1,0 +1,6 @@
+@media screen and(main-width: 768px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+}

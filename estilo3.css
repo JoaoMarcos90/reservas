@@ -52,7 +52,7 @@ h6{
 }
 
 .imgfundo{
-    width: 100w;
+    width: 100%;
     height: 100vh;
     background: url(../reservas/imagens/bola5.jpg) no-repeat;
     background-size: cover;
@@ -75,6 +75,7 @@ h6{
     
 }
 .elemento{
+    
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -86,11 +87,24 @@ h6{
     margin: 10px;
     
 }
+.carrinho{
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    width: 110px;
+    height: 190px;
+    background-color:white;
+    border: 6px solid black;
+    border-radius: 70px;
+    margin: 10px;
+   
+    
+}
 
 .pol1,.pol2,.pol3,.pol4,.pol5,.pol6,.pol7,.pol8,.pol9
 ,.pol10,.pol11,.pol12,.pol13,.pol14,.pol15,.pol16,.pol17
-,.pol18,.pol19,.pol20,.pol21,.pol22{ 
-    margin: 15px 20px auto;
+,.pol18,.pol19,.pol20,.pol21,.pol22,.pol23,.pol24{ 
+    margin: 15px 30px auto;
     background: blue;
     color: aliceblue;
     height: 30px;
@@ -100,7 +114,11 @@ h6{
     font-size: 14px;
  }
  .palco{
-    margin: 180px 200px ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 200px;
     background: blue;
     color: aliceblue;
     height: 80px;
