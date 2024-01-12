@@ -132,9 +132,3 @@ h4{
     background-color: rgb(115, 165, 240);
 }
 
-@media screen and(max-width: 340px){
-    .form-box{
-        width: 100vw;
-        height: 100vh;
-    }
-}
