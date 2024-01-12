@@ -97,7 +97,7 @@ h4{
     width: 170px;
     height: 60px;
     left: 10px;
-    top: 100px;
+    top: 80px;
     border-radius: 20px; 
 }
 .op2{
@@ -108,7 +108,7 @@ h4{
     width: 170px;
     height: 60px;
     left: 10px;
-    top: 250px;
+    top: 190px;
     border-radius: 20px; 
 }
 .op3{
@@ -119,14 +119,14 @@ h4{
     width: 170px;
     height: 60px;
     left: 10px;
-    top: 400px;
+    top: 300px;
     border-radius: 20px; 
 }
 
 .conteudo{
     background: #fff;
     padding: 38px;
-    border: 7px solid black;
+    border: 9px solid black;
     position: absolute;
     width: 860px;
     height: 500px;
@@ -145,8 +145,8 @@ h4{
     height: 80px;
     font-size: 20px;
     position: relative;
-    left: 120px;
-    top: 100px;
+    left: 610px;
+    top: 20px;
     cursor: pointer;
 }
 .voltar:hover{
@@ -197,7 +197,7 @@ border-radius: 70px;
     font-size: 80px; 
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid black ;
+    border: 8px solid black ;
  }
 
 
