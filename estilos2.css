@@ -128,7 +128,7 @@ h4{
     cursor: pointer;
 }
 .voltar:hover{
-    background-color: rgb(5, 94, 226);
+    background-color: rgb(115, 165, 240);
 }
 
 @media screen and(max-width: 340px){
