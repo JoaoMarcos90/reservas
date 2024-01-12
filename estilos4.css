@@ -168,13 +168,19 @@ border-radius: 70px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: blue;
     color: aliceblue;
-    margin: 1px 20px;
+    margin: 2px 20px;
     height: 30px;
     width: 30px;
     border: 2px solid black;
     border-radius: 900px;
     font-size: 15px;
+    cursor: pointer;
  }
+ .pol1:hover,.pol2:hover,.pol3:hover,.pol4:hover,.pol5:hover,.pol6:hover,.pol7:hover,.pol8:hover,.pol9:hover
+ ,.pol10:hover,.pol11:hover,.pol12:hover,.pol13:hover,.pol14:hover,.pol15:hover,.pol16:hover,.pol17:hover
+ ,.pol18:hover,.pol19:hover,.pol20:hover,.pol21:hover,.pol22:hover,.pol23:hover,.pol24:hover{
+    background-color: rgb(9, 255, 9);
+}
 
  .palco{
     position: relative;
