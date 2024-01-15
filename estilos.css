@@ -178,6 +178,9 @@ h4{
         font-size: 30px;
         margin: 40px;
     }
+    .entrar:hover{
+        background-color: rgb(115, 165, 240);
+    }
     .form-box .cadastro{
         position: absolute;
         left: 280px;
@@ -186,7 +189,9 @@ h4{
         height: 100px;
         font-size: 30px;
         margin: 40px;
-
+    }
+    .entrar:hover{
+        background-color: rgb(115, 165, 240);
     }
     h2{
         font-size: 40px;   
