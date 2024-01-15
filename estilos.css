@@ -137,9 +137,93 @@ h4{
     background-color: rgb(115, 165, 240);
 }
 
-@media screen and(max-width: 340px){
-    .form-box{
-        width: 100vw;
-        height: 100vh;
+@media screen and (max-width: 768px){
+     .container{
+        display: block;
+        background-image: none;
+        background-color: black;
+        height: 1800px; 
+        width: 1030px;
+     }
+   .form-box{
+    margin-top: 100px;
+    text-align: center ;
+    background-color: rgb(253, 253, 253);
+    height: 1200px; 
+    width: 910px;
+     }
+
+     .form-box .form-input{
+      
+        width: 600px;
+        height: 80px;
+        font-size: 50px;
     }
+    ::-webkit-input-placeholder {
+        font-size: 30px;
+     }
+     h1{
+       
+        font-size: 150px;
+        height: 80px;
+        margin-top: 200px;
+        
+    }
+    .form-box .entrar{
+        position: absolute;
+        left: 300px;
+        top: 800px;
+        width: 300px;
+        height: 100px;
+        font-size: 50px;
+        margin: 40px;
+        cursor: pointer;
+    }
+    .form-box .cadastro{
+        position: absolute;
+        left: 280px;
+        top: 920px;
+        width: 340px;
+        height: 100px;
+        font-size: 50px;
+        margin: 40px;
+        cursor: pointer;
+    }
+    h2{
+        font-size: 40px;   
+     }
+
+     h3{
+        font-size: 40px;
+        height: 30px;
+        }
+     
+     h4{
+         
+         left: 400px;
+         top: 89px;
+         height: 90px;
+         width: 90px;
+         border: 3px solid black;
+         border-radius: 900px;
+      }
+      h5{
+         background: blue;
+         left: 450px;
+         top: 88px;
+         height: 90px;
+         width: 90px;
+         border: 3px solid black;
+         border-radius: 900px;
+      }
+      h6{
+         background: blue;
+         left: 500px;
+         top: 85px;
+         height: 90px;
+         width: 90px;
+         border: 3px solid black;
+         border-radius: 900px;
+         
+      }
 }
