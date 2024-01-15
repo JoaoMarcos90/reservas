@@ -137,7 +137,7 @@ h4{
     background-color: rgb(115, 165, 240);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1020px){
      .container{
         display: block;
         background-image: none;
