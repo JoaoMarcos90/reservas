@@ -208,9 +208,49 @@ border-radius: 70px;
 
 
 
-@media screen and(max-width: 340px){
-    .form-box{
-        width: 100vw;
-        height: 100vh;
+@media screen and (max-width: 1020px){
+     .container{
+        display: block;
+        background-image: none;
+        background-color: silver;
+        height: 1800px; 
+        width: 1030px;
+     }
+   .form-box{
+    margin-top: 100px;
+    text-align: center ;
+    background-color: rgb(253, 253, 253);
+    height: 1200px; 
+    width: 910px;
+    border: 20px solid black;
+     }
+     .conteudo{
+        background: #fff;
+        padding: 38px;
+        border: 9px solid black;
+        position: absolute;
+        width: 950px;
+        height: 1000px;
+        border-radius: 70px;
+        
     }
+    .bancos{
+        background: #fff;
+        padding: 38px;
+        border: 7px solid black;
+        position: absolute;
+        width: 500px;
+        height: 200px;
+        border-radius: 70px;
+        }
+     .carrinho{
+            background: rgb(75, 95, 246);
+            padding: 38px;
+            border: 2px solid black;
+            position: absolute;
+            width: 160px;
+            height: 800px;
+            left: 70px;
+            border-radius: 20px; 
+        }
 }
