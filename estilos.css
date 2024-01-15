@@ -177,6 +177,7 @@ h4{
         height: 100px;
         font-size: 30px;
         margin: 40px;
+        background: silver;
     }
     .entrar:hover{
         background-color: rgb(115, 165, 240);
@@ -189,6 +190,7 @@ h4{
         height: 100px;
         font-size: 30px;
         margin: 40px;
+        background: silver;
     }
     .entrar:hover{
         background-color: rgb(115, 165, 240);
