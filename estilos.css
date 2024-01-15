@@ -175,9 +175,8 @@ h4{
         top: 800px;
         width: 300px;
         height: 100px;
-        font-size: 40px;
+        font-size: 30px;
         margin: 40px;
-        cursor: pointer;
     }
     .form-box .cadastro{
         position: absolute;
@@ -185,9 +184,9 @@ h4{
         top: 920px;
         width: 340px;
         height: 100px;
-        font-size: 40px;
+        font-size: 30px;
         margin: 40px;
-        cursor: pointer;
+
     }
     h2{
         font-size: 40px;   
