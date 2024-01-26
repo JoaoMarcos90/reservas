@@ -135,6 +135,7 @@ h4{
 .voltar:hover{
     background-color: rgb(115, 165, 240);
 }
+/* -------------Modelo mobile ---------*/
 
 @media screen and (max-width: 1020px){
     .container{

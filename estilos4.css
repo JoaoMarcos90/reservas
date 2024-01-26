@@ -161,6 +161,7 @@ width: 500px;
 height: 200px;
 border-radius: 70px;
 }
+/* -------------POLTRONAS ---------*/
 
 .pol1,.pol2,.pol3,.pol4,.pol5,.pol6,.pol7,.pol8,.pol9
 ,.pol10,.pol11,.pol12,.pol13,.pol14,.pol15,.pol16,.pol17
@@ -181,6 +182,7 @@ border-radius: 70px;
  ,.pol18:hover,.pol19:hover,.pol20:hover,.pol21:hover,.pol22:hover,.pol23:hover,.pol24:hover{
     background-color: rgb(9, 255, 9);
 }
+/* -------------POLTRONAS ---------*/
 
  .palco{
     position: relative;
@@ -206,7 +208,7 @@ border-radius: 70px;
     border: 8px solid black ;
  }
 
-
+/* -------------Modelo mobile ---------*/
 
 @media screen and (max-width: 1020px){
      .container{

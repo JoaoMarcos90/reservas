@@ -37,7 +37,7 @@ body{
 .form-box, h4,h5,h6{
        position: absolute;
     }
-
+/* Desenho das bolas */
 h4{
     background: blue;
     left: 360px;
@@ -136,7 +136,7 @@ h4{
 .entrar:hover{
     background-color: rgb(115, 165, 240);
 }
-
+/* -------------Modelo mobile ---------*/
 @media screen and (max-width: 1020px){
      .container{
         display: block;
