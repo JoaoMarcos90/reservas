@@ -71,7 +71,7 @@ h4{
 .container{
     width: 100w;
     height: 100vh;
-    background: url(../reservas/imagens/bola5.jpg) no-repeat;
+    background: url("../frontend/imagens/bola3.jpg") no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
