@@ -1,6 +1,5 @@
+
 /*CSS*/
-
-
 body{
     padding: 0;
     margin: 0;
@@ -70,7 +69,7 @@ h4{
 .container{
     width: 100w;
     height: 100vh;
-    background: url("../frontend/imagens/bola3.jpg") no-repeat;
+    background: url("../reservas/imagens/bola3.jpg") no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -161,6 +160,7 @@ width: 500px;
 height: 200px;
 border-radius: 70px;
 }
+/* -------------POLTRONAS ---------*/
 
 .pol1,.pol2,.pol3,.pol4,.pol5,.pol6,.pol7,.pol8,.pol9
 ,.pol10,.pol11,.pol12,.pol13,.pol14,.pol15,.pol16,.pol17
@@ -181,6 +181,7 @@ border-radius: 70px;
  ,.pol18:hover,.pol19:hover,.pol20:hover,.pol21:hover,.pol22:hover,.pol23:hover,.pol24:hover{
     background-color: rgb(9, 255, 9);
 }
+/* -------------POLTRONAS ---------*/
 
  .palco{
     position: relative;
@@ -206,7 +207,7 @@ border-radius: 70px;
     border: 8px solid black ;
  }
 
-
+/* -------------Modelo mobile ---------*/
 
 @media screen and (max-width: 1020px){
      .container{
@@ -253,4 +254,5 @@ border-radius: 70px;
             left: 70px;
             border-radius: 20px; 
         }
-}
+
+        }
