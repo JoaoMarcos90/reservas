@@ -1,0 +1,189 @@
+*{
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+.background{
+    background: rgba(3,0,12,0.7) url(../ProjetoSalao/imagem/cabelo.jpeg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    overflow: hidden;
+   
+}
+
+.logo img{
+    width: 80px;
+    height: auto;
+    gap: 80rem;
+}
+
+nav{
+    display: flex;
+    gap: 45px;
+    font-size: 25px;
+}
+nav a{
+    color: white;
+    font-weight: 500;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+.meio h1{
+    
+    color: white;
+    font-size: 100px;
+}
+.container{
+    text-align: center;
+    margin-top: 8%;
+    max-width: 100%;
+}
+.logo i{
+    height: 50px;
+    width: 50px;
+    margin-right: 600px;
+    background: transparent;
+    border: 3px solid pink;
+    color: plum;
+    border-radius: 50%;
+    display:inline-flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    cursor: pointer;
+}
+/* ------- PAGINA 1 ------*/
+.servicos{
+    background-color: white;
+    color: rgb(153, 37, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px 80px 0px;
+}
+.services h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+/* ------- PAGINA 2 ------*/
+
+.sobre{ 
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    background-color:rgb(180, 62, 227) ;
+    vertical-align: top;
+}
+
+.imagemm{
+    float: left;
+    max-width: 80%;
+    width: 20%;
+    overflow: hidden;
+    transition: transform 0.1s;
+    
+}
+.sobre .imagemm:hover{
+    transform: scale(1.1);
+   
+}
+.textao h4 {
+    max-width: 100%;
+    margin-top: 20%;
+    margin-left: 50%; 
+    font-size: 150%;
+    color: white;
+    text-shadow: 2px 2px 2px #fb0fff, 0 0 2px rgb(225, 0, 255);
+    
+}
+/* ------- PAGINA 3 ------*/
+
+.cortes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 7px 87px 81px;
+
+}
+.corte{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+img{
+    width: 90%;
+    max-width: 100%;
+    transition: transform 0.2s;
+}
+.corte img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.infocorte{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    background-color: white;
+    z-index: 99;
+}
+.infocorte strong{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding: 14px 0px 0px 80px;
+    color: blueviolet;
+}
+
+/* ------- PAGINA 4------*/
+
+.contatos{
+    display: flex;
+    background-color: rgb(180, 62, 227);
+    width: 100%;
+    height: 70vh;
+}
+.contatos h5{
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 100%;
+    font-size: 40px;
+    color: white;
+}
+.cont i{
+    height: 8%;
+    width: 8%;
+    background: transparent;
+    border: 3px solid black;
+    color: black;
+    border-radius: 50%;
+    display:inline-flex ;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    margin-top:10%;
+    margin-left:40%;
+    cursor: pointer;
+}
