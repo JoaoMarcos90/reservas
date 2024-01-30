@@ -1,0 +1,258 @@
+/*CSS*/
+
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100vw;
+}
+ h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    height: 80px;
+    background-size: cover;
+    justify-content: right;
+    align-items: right;
+}
+ h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    height: 30px;
+    background-size: cover;
+    justify-content: right;
+    align-items: right;
+    
+ }
+ h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 23px;
+    height: 30px;
+    background-size: cover;
+    justify-content: right;
+    align-items: right;
+
+    }
+    
+.conteudo, h4,h5,h6{
+       position: absolute;
+    }
+
+h4{
+    background: blue;
+    left: 230px;
+    top: 65px;
+    height: 30px;
+    width: 30px;
+    border: 3px solid black;
+    border-radius: 900px;
+ }
+ h5{
+    background: blue;
+    left: 250px;
+    top: 64px;
+    height: 30px;
+    width: 30px;
+    border: 3px solid black;
+    border-radius: 900px;
+ }
+ h6{
+    background: blue;
+    left: 270px;
+    top: 61px;
+    height: 30px;
+    width: 30px;
+    border: 3px solid black;
+    border-radius: 900px;
+    
+ }
+
+.container{
+    width: 100w;
+    height: 100vh;
+    background: url("../reservas/imagens/bola3.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.carrinho{
+    background: rgb(75, 95, 246);
+    padding: 38px;
+    border: 2px solid black;
+    position: absolute;
+    width: 160px;
+    height: 450px;
+    left: 670px;
+    border-radius: 20px; 
+}
+.op1{
+    
+    background: rgb(255, 255, 255);
+    padding: 18px;
+    border: 4px solid black;
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 10px;
+    top: 80px;
+    border-radius: 20px; 
+}
+.op2{
+    background: rgb(255, 255, 255);
+    padding: 18px;
+    border: 4px solid black;
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 10px;
+    top: 190px;
+    border-radius: 20px; 
+}
+.op3{
+    background: rgb(255, 255, 255);
+    padding: 18px;
+    border: 4px solid black;
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    left: 10px;
+    top: 300px;
+    border-radius: 20px; 
+}
+
+.conteudo{
+    background: #fff;
+    padding: 38px;
+    border: 9px solid black;
+    position: absolute;
+    width: 860px;
+    height: 500px;
+    border-radius: 70px;
+    
+}
+
+
+
+.voltar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 7px solid black;
+    background: rgb(253, 253, 253);
+    border-radius: 20px;
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    position: relative;
+    left: 610px;
+    top: 20px;
+    cursor: pointer;
+}
+.voltar:hover{
+    background-color: rgb(5, 226, 45);
+}
+.bancos{
+background: #fff;
+padding: 38px;
+border: 7px solid black;
+position: absolute;
+width: 500px;
+height: 200px;
+border-radius: 70px;
+}
+/* -------------POLTRONAS ---------*/
+
+.pol1,.pol2,.pol3,.pol4,.pol5,.pol6,.pol7,.pol8,.pol9
+,.pol10,.pol11,.pol12,.pol13,.pol14,.pol15,.pol16,.pol17
+,.pol18,.pol19,.pol20,.pol21,.pol22,.pol23,.pol24{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: blue;
+    color: aliceblue;
+    margin: 2px 20px;
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 900px;
+    font-size: 15px;
+    cursor: pointer;
+ }
+ .pol1:hover,.pol2:hover,.pol3:hover,.pol4:hover,.pol5:hover,.pol6:hover,.pol7:hover,.pol8:hover,.pol9:hover
+ ,.pol10:hover,.pol11:hover,.pol12:hover,.pol13:hover,.pol14:hover,.pol15:hover,.pol16:hover,.pol17:hover
+ ,.pol18:hover,.pol19:hover,.pol20:hover,.pol21:hover,.pol22:hover,.pol23:hover,.pol24:hover{
+    background-color: rgb(9, 255, 9);
+}
+/* -------------POLTRONAS ---------*/
+
+ .palco{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background: blue;
+    color: aliceblue;
+    height: 50px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+ }
+ .carrinho, .ca{
+    color: #fff;
+    font-size: 20px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ .ca{
+    font-size: 80px; 
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 8px solid black ;
+ }
+
+/* -------------Modelo mobile ---------*/
+
+@media screen and (max-width: 1020px){
+     .container{
+        display: block;
+        background-image: none;
+        background-color: silver;
+        height: 1800px; 
+        width: 1030px;
+     }
+   .form-box{
+    margin-top: 100px;
+    text-align: center ;
+    background-color: rgb(253, 253, 253);
+    height: 1200px; 
+    width: 910px;
+    border: 20px solid black;
+     }
+     .conteudo{
+        background: #fff;
+        padding: 38px;
+        border: 9px solid black;
+        position: absolute;
+        width: 950px;
+        height: 1000px;
+        border-radius: 70px;
+        
+    }
+    .bancos{
+        background: #fff;
+        padding: 38px;
+        border: 7px solid black;
+        position: absolute;
+        width: 500px;
+        height: 200px;
+        border-radius: 70px;
+        }
+     .carrinho{
+            background: rgb(75, 95, 246);
+            padding: 38px;
+            border: 2px solid black;
+            position: absolute;
+            width: 160px;
+            height: 800px;
+            left: 70px;
+            border-radius: 20px; 
+        }
+}
